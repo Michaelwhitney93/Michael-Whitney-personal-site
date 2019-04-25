@@ -102,9 +102,13 @@
             <h3 class="mb-0">Whinery</h3>
             <div class="subheading mb-3">(Rails, Postgresql, React/Redux, AWS S3, HTML, SCSS)</div>
             <p><ul>
-              <li>Utilized Rails ActiveRecord associations in the backend to clean up the Redux front end Store to create more DRY code and reduced load times.</li>
-              <li>Integrated React to create a single page website that allowed seamless navigation to and from separate components.</li>
+              <li>Utilized Rails ActiveRecord associations in the backend to clean up the Redux front end Store to create more DRY
+              code and reduced load times.</li>
+              <li>IDesigned front end components to receive their own slice of state and only render necessary information which also
+              lowered the amount of database queries.</li>
               <li>Implemented an optional photo upload and sharing feature on check-in forms using AWS S3 for all images.</li>
+              <li>Applied React Router in tandem with backend authentication measures to only allow users to create check-ins when logged
+              in and prevent other users from deleting a check-in they did not author.</li>
             </ul></p>
           </div>
           <div class="resume-date text-md-right">
@@ -117,7 +121,8 @@
             <h3 class="mb-0">Alien Invader Defender</h3>
             <div class="subheading mb-3">(Javascript, HTML5 Canvas, CSS)</div>
             <p><ul>
-              <li>Built an upgrade mechanic that relies on HTML button elements for towers that increases damage and search radius stats as well as changing appearance.</li>
+              <li>Built an upgrade mechanic for towers that either places a tower or increases damage and search radius stats as well as
+              changing appearance on an existing tower.</li>
               <li>Developed a collision detection algorithm between projectile and enemy elements using X and Y coordinates that either reduced enemy health or removed both elements from the canvas.</li>
               <li>Crafted an AI for towers that cycles through all available enemies to find any and all within a certain range to fire at.</li>
             </ul></p>
