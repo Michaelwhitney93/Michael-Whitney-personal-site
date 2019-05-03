@@ -102,10 +102,9 @@
             <h3 class="mb-0">Whinery</h3>
             <div class="subheading mb-3">(Rails, Postgresql, React/Redux, AWS S3, HTML, SCSS)</div>
             <p><ul>
-              <li>Utilized Rails ActiveRecord associations in the backend to clean up the Redux front end Store to create more DRY
-              code and reduced load times.</li>
-              <li>IDesigned front end components to receive their own slice of state and only render necessary information which also
-              lowered the amount of database queries.</li>
+              <li>Preloaded check-ins with user, wine, and winery ActiveRecord associations that reduced the amount of database queries to
+              the server.</li>
+              <li>Designed front end components to receive their own slice of state and only render data from the backend jbuilder views.</li>
               <li>Implemented an optional photo upload and sharing feature on check-in forms using AWS S3 for all images.</li>
               <li>Applied React Router in tandem with backend authentication measures to only allow users to create check-ins when logged
               in and prevent other users from deleting a check-in they did not author.</li>
